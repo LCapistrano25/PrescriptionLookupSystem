@@ -186,14 +186,19 @@ function renderRecipes(data) {
             </div>
             <hr/>
             <div class="description-container">
-                <img src="${imageUrl}" alt="${capitalizeTitle(recipe.name)}">
+                <img src="${imageUrl}" alt="${recipe.name}">
                 <div>
                     <h3><strong>Descrição</strong></h3>
                     <p>${recipe.description}</p>
-                    <p class="origins"><em>Origem: ${recipe.name_country || "Desconhecida"}</em></p>
+                    <div class="recipe-footer">
+                        <p class="origins"><em>Origem: ${recipe.origin || "Desconhecida"}</em></p>
+                        <button class="view-more-button" onclick="openRecipeDetails(event)">Ver mais</button>
+                    </div>
                 </div>
             </div>
         `;
+
+        card.setAttribute("data-recipe-id", recipe.id);
 
         recipesContainer.appendChild(card);
     });

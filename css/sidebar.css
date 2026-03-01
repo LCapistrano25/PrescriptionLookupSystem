@@ -62,7 +62,7 @@
     /* Ícone no item */
     .sidebar .nav-item i {
         margin-right: 15px;
-        font-size: 15px;
+        font-size: 18px; /* Ajuste o tamanho se necessário */
     }
     
     /* Estado ativo */
@@ -105,7 +105,7 @@
 /* Ícone no item padrão */
 .sidebar .nav-item i {
     margin-right: 15px;
-    font-size: 15px;
+    font-size: 18px; /* Ajuste o tamanho se necessário */
 }
 
 /* Estado ativo */

@@ -2,27 +2,19 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NaPanela - Receitas Favoritas</title>
-    <!-- Font Awesome para ícones -->
+    <title>Receitas da Semana</title>
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/week_recipes.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="/css/favorite_recipe.css">
 </head>
 <body>
-    
     <div class="container">
         <!-- Barra lateral -->
         <div id="sidebar-container"></div>
 
         <!-- Conteúdo principal -->
         <main class="main-content">
-            <div class="search-bar">
-                <div class="input-container">
-                    <i class="fas fa-search"></i>
-                    <input type="text" placeholder="Pesquisar" id="search">
-                </div>
-            </div>
-            
+            <h2>Receitas da Semana</h2>
             <section class="recipes" id="recipes-container">
                 <!-- As receitas serão inseridas aqui -->
             </section>
@@ -31,6 +23,6 @@
 
     <!-- Scripts -->
     <script src="/javascript/sidebar.js"></script>
-    <script src="/javascript/favorite_recipe.js"></script>
+    <script src="/javascript/week_recipes.js"></script>
 </body>
 </html>

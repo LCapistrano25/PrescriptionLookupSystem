@@ -146,3 +146,29 @@ body {
 .recipe-card .fav-button:hover {
     background-color: #FFA07A;
 }
+
+.recipe-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.recipe-footer .origins {
+    margin: 0;
+    font-weight: bold;
+}
+
+.recipe-footer .view-more-button {
+    background-color: #FF835D;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.recipe-footer .view-more-button:hover {
+    background-color: #E9775D;
+}
